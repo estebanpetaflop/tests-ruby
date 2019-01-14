@@ -1,5 +1,6 @@
+require 'rspec'
 require_relative '../lib/05_timer'
-
+include RSpec
 describe 'time_string' do
   it "should display 0 seconds as 00:00:00" do
     expect(time_string(0)).to eq("00:00:00")

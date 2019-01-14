@@ -1,4 +1,7 @@
+require 'rspec'
 require_relative '../lib/00_hello'
+
+include RSpec
 
 describe "the hello function" do
   it "says hello" do

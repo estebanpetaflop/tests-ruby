@@ -1,5 +1,6 @@
+require 'rspec'
 require_relative '../lib/04_simon_says'
-
+include RSpec
 describe "Simon says" do
   describe "echo" do
     it "should echo hello" do

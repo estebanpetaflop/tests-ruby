@@ -1,4 +1,6 @@
+require 'rspec'
 require_relative '../lib/01_temperature'
+include RSpec
 
 describe "temperature conversion functions" do
 

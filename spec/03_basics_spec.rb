@@ -1,5 +1,6 @@
+require 'rspec'
 require_relative '../lib/03_basics'
-
+include RSpec
 describe 'who is the biggest number' do
   # Hint: 'def who_is_bigger(a, b, c)'
   it 'tells me the biggest' do

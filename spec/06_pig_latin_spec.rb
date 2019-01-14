@@ -1,5 +1,6 @@
+require 'rspec'
 require_relative '../lib/06_pig_latin'
-
+include RSpec
 describe "#translate" do
 
   it "translates a word beginning with a vowel" do
